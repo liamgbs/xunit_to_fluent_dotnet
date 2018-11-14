@@ -1,0 +1,5 @@
+Assert.NotNull(response);
+Assert.Equal(0, response.responsetype);
+Assert.Equal(3409143, response.propref);
+Assert.Equal(decisionStatusType.Perfect, response.decisionstatus);
+Assert.Equal(processStatusType.Processing, response.processstatus);
